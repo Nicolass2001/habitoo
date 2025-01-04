@@ -1,6 +1,6 @@
-# Welcome to Remix + Vite!
+# Habitoo
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+Small web app for habit tracking. For personal use.
 
 ## Development
 
