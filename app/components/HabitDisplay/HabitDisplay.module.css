@@ -1,0 +1,35 @@
+.square {
+  width: 15px; /* Width of the square */
+  height: 15px; /* Height of the square */
+  border-radius: 3px; /* Rounded corners */
+  margin: 3px; /* Margin around the square */
+  display: inline-block; /* Display the squares in a row */
+}
+
+.noColor {
+  background-color: transparent;
+}
+
+.color0 {
+  background-color: #25292e;
+}
+
+.color1 {
+  background-color: #0e4429;
+}
+
+.color2 {
+  background-color: #006d32;
+}
+
+.color3 {
+  background-color: #26a641;
+}
+
+.color4 {
+  background-color: #39d353;
+}
+
+.month {
+  position: relative;
+}
