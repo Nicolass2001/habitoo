@@ -1,5 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
 import { HabitDisplay } from "~/components/HabitDisplay/HabitDisplay";
+import { HabitForm } from "~/components/HabitForm/HabitForm";
 
 // test data ---------------------------------------
 const habitsPerDay = Array.from({ length: 365 }, () =>
@@ -20,6 +21,7 @@ export default function Index() {
     <>
       <h1>Hello World!</h1>
       <HabitDisplay habitsPerDay={habitsPerDay} year={year} />
+      <HabitForm />
     </>
   );
 }
